@@ -1,0 +1,14 @@
+
+.first-screen-body{
+  padding: 2rem 3rem 0 3rem;
+  height: 80vh;
+  
+}
+.first-screen-body h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 7rem;
+  margin: 0  ;
+}
+.first-screen-body p{
+  font-size: 1.5rem;
+}
