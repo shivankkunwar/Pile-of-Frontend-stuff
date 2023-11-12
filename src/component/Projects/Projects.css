@@ -1,0 +1,38 @@
+.project-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-desc{
+    margin: 2rem 3rem;
+}
+.project-card{
+    max-width: 70vw;
+   
+    background-color: #EBEBEB;
+    display: flex;
+    
+    border-radius: 20px;
+    margin: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+.project-card img{
+    
+  object-fit: contain; 
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:active {
+    transform: scale(1.0);
+  transition: transform 0.2s ease-in-out;
+
+  }
+
+  .project-link{
+    text-decoration: none;
+    color: inherit;
+    
+  }
+  

@@ -1,0 +1,23 @@
+.file-explorer{
+    display: flex;
+    
+    margin: 5rem;
+    max-width: 50vw;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.nested {
+    margin-left: 10px;
+    
+  }
+  .per-folder:hover{
+    cursor: pointer;
+  }
+.file-active:hover{
+    background-color: #EBEBEB;
+}
+.folder-container{
+    margin-left: 2rem;
+}
+  

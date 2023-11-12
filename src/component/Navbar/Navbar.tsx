@@ -1,13 +1,17 @@
 import "./Navbar.css"
+import {Link} from "react-router-dom"
 function Navbar (){
     return (
     <div className="navbar">
-    <div className="title-nav">
+     <Link to="/">
+     <div className="title-nav">
         Pile of <u>Frontend</u> stuffs
     </div>
+     </Link>   
+    
     <div className="items-nav">
         <div className="hire-me-button">
-            <a  href="https://www.linkedin.com/in/shivank-kunwar/">
+            <a id="hire-button" href="https://www.linkedin.com/in/shivank-kunwar/">
                 Hire me
             </a>
             
